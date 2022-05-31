@@ -1,0 +1,18 @@
+.text-large{
+    font-size: x-large;
+}
+.text-bold{
+    font-weight: bolder;
+}
+.text-small{
+    font-size: x-small;
+}
+.text-lighter{
+    font-weight: lighter;
+}
+.text-small-caps{
+    font-variant: small-caps;
+}
+.text-underline{
+    text-decoration: underline;
+}
