@@ -16,3 +16,10 @@
 .text-underline{
     text-decoration: underline;
 }
+.box-div{
+    background-color: aqua;
+    color: yellow;
+    display: block;
+    width: 20%;
+    height: 40%;
+}
