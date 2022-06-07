@@ -16,10 +16,52 @@
 .text-underline{
     text-decoration: underline;
 }
-.box-div{
-    background-color: aqua;
-    color: yellow;
+div{
     display: block;
-    width: 20%;
-    height: 40%;
+    width: 508px;
+    height: 120px;
+    overflow: hidden;
+    padding: 5px;
+    border: #000;
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 1px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-div-A{
+    background-color: #dc270f;
+    color: #000;
+    animation: color1 5s;
+    animation-iteration-count: infinite;
+}
+.box-div-B{
+    background-color: #ffff;
+    color: #000;
+    animation: color2 5s;
+    animation-iteration-count: infinite;
+}
+.box-div-C{
+    background-color: #0f00f0;
+    color: #ffff;
+    animation: color3 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color1 {
+    from {background-color: #dc270f;}
+    to {background-color: #ffff;}
+}
+
+@keyframes color2 {
+    from {background-color: #ffff; color: #000}
+    to {background-color: #0f00f0; color: #ffff}
+}
+
+@keyframes color3 {
+    from {background-color: #0f00f0; color: #ffff;}
+    to {background-color: #dc270f; color: #000}
 }
